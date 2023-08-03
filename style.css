@@ -1,0 +1,346 @@
+*{
+    margin:0;
+    border: border-box;
+    font-family:'Times New Roman';
+    color:white;
+}
+.nav-bar{
+    height: 60px;
+    background-color: #0F1111;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:100px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+#first-text{
+    margin-left:15px;
+    font-size:12px;
+    color:#cccccc;
+}
+#second-text{
+    margin-left:4px;
+    font-size:14px;
+    color:#ffffff;
+}
+.fa-location-dot{
+    margin-bottom: 5px;
+}
+.nav-address{
+    padding:7px;
+}
+.nav-search{
+    height:40px;
+    width:550px;
+    color:#0F1111;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#category{
+    width:55px;
+    height:40px;
+    color:#0F1111;
+    font-size:14px;
+    background-color: #f3f3f3;
+    text-align:center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+}
+#search-bar{
+    width:100%;
+    height:95%;
+    border:none;
+    padding:none;
+    font-size: 16px;
+    padding-left: 10px;
+    color:#0F1111;
+}
+.nav-search:hover{
+    border: 2.5px solid orange;
+    border-radius: 7px;
+}
+.search-icon{
+    height:42px;
+    width:45px;
+    border:none;
+    padding:none;
+}
+#search-button{
+    height:40px;
+    margin-top: 1px;
+    padding:none;
+    width:45px;
+    background-color: rgb(237, 168, 83);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.fa-magnifying-glass{
+    scale: 1.5;
+    color:#0F1111;
+}
+.options-list{
+    color:#0F1111;
+}
+#map{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:60px;
+    height:50px;
+    font-size: 14px;
+}
+#maptext{
+    font-weight: 700;
+}
+.arrow{
+    color:rgb(102, 99, 99);
+    font-size: 0.65rem;
+    position: relative;
+    top:2px;
+    right:3px;
+}
+
+.uppertext{
+    font-size: 12px;
+    font-weight: 400;
+}
+.lowertext{
+    font-size:14px;
+    font-weight: 700;
+}
+.sign-in, .return{
+    height:40px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:5px;
+}
+#cart-bar{
+    height: 40px;
+    width:50px;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:5px;
+}
+#number{
+    font-weight: 700;
+    font-size: 16px;
+    color:#f08804;
+}
+#item-cart{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#cart-text{
+    position: relative;
+    top:12px;
+    font-weight: 700;
+    font-size: 14px;
+}
+#cart-bar:hover #number{
+    margin-bottom: 1.5px;
+}
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#panel-all{
+    width: 60px;
+    height: 93%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#all{
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+.panel-links{
+    display: flex;
+    justify-content: center;
+    height:52.5%;
+    text-decoration: none;
+    padding: 8px;
+    padding-top: 8.5px;
+}
+.links{
+    flex-grow: 1;
+    display: flex;
+    height:100%;
+    
+}
+.fa-bars{
+    font-weight: 900;
+}
+#deals{
+    align-self: flex-end;
+    padding-bottom: 1px;
+    height:100%;
+}
+#shop-deals{
+    position: relative;
+    top:0.5px;
+    font-weight: 800;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("first-pic.jpg");
+    background-size: cover;
+    border-bottom-color: rgb(0, 113, 133);
+    height:400px;
+}
+
+#hero-msg{
+    height:40px;
+    width:80%;
+    margin-bottom:25px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#msg-text{
+    color:black;
+    font-size: 14px;
+}
+.box-section{
+    padding-top: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(224, 253, 239);
+}
+.box{
+    height:350px;
+    color:black;
+    width:20%;
+    background-color: white;
+    padding-top:20px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+
+}
+h2{
+    color:black;
+}
+.box-img{
+    margin-top: 15px;
+    margin-bottom:20px;
+    height:75%;
+    background-size:cover;
+}
+.in-box-link{
+    text-decoration: none; 
+    color: #007185; 
+    font-size: 1rem;
+}
+#back-to-top{
+    height:50px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+
+}
+
+#back-to-top:hover{
+    opacity: 0.90;
+}
+.foot-panel2{
+    padding-top: 50px;
+    background-color: #232f3e;
+    height:500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    color: #dddddd;
+    margin-top: 10px;
+    display: block;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+
+ul a:hover, #privacy  a:hover{
+    text-decoration: underline;
+}
+#foot-panel3{
+    background-color: #232f3e;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:0.01px solid rgb(94, 93, 93);
+}
+.foot-panel4{
+    background-color: #131a22;
+    height:60px;
+
+}
+#privacy{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#privacy  a{
+    border:none;
+    color: #dddddd;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+#copyright{
+    height:30px;
+    background-color: #131a22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copyright p{
+    margin-top: 10px;
+    color: #dddddd;
+    font-size: 13px;
+    text-align: center;
+}
